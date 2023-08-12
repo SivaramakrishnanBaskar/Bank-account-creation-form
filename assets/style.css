@@ -1,0 +1,54 @@
+/* styles.css */
+h1{
+    font-size: medium;
+    font-weight:  bolder;
+    font-style: arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/004/585/326/original/banking-building-business-finance-management-low-poly-wireframe-illustration-isolated-background-free-vector.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 450px;
+    max-height: 150;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 10px 240px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="numeric"],
+select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}

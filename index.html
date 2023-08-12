@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Creation</title>
+    <link rel="stylesheet" href="assets/style.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        
+        <h1><center>Bank Account Opening form</center></h1>
+        
+        <form id="accountForm">
+            
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName">
+
+            <label for="PAN Number">PAN Number:</label>
+            <input type="numeric" id="PAN Number:" name="PAN Number:">
+
+            <label for="Aadhar Number">Aadhar Number:</label>
+            <input type="numeric" id="Aadhar Number" name="Aadhar Number">
+       
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+           
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" >
+            
+            <label for="dateOfBirth">Date of Birth:</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" >
+    
+            <br>
+            <br>
+
+            <label for="Residential Address">Residential Address:</label>
+            <input type="text" id="Residential Address" name="Residential Address" required>
+            <br>
+
+            <label for="initialDeposit">Initial Deposit:</label>
+            <input type="numeric" id="initialDeposit" name="initialDeposit" >
+           
+
+            <label for="accountType">Account Type:</label>
+            <select id="accountType" name="accountType" >
+           
+                <br>
+                <option value="select">Select</option>
+                <option value="savings">Savings</option>
+                <option value="Current ">Current</option>
+            </select>
+            
+            
+            <label for="termsAndConditions">
+                <input type="checkbox" id="termsAndConditions" name="termsAndConditions" required>
+                *I agree to the Terms and Conditions as mentioned in our website
+            </label>
+            <br>
+
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</body>
+</html>
